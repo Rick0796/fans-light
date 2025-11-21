@@ -19,8 +19,8 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
+          // Removed 'aos' from here because it is loaded via CDN in index.html
           vendor: ['react', 'react-dom', 'react-router-dom', 'lucide-react'],
-          animations: ['aos'],
         },
       },
     },
