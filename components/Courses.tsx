@@ -75,7 +75,7 @@ const Courses: React.FC = () => {
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-3xl md:text-5xl font-black mb-4 tracking-tight">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">
-              热门实战体系
+              实操课程
             </span>
           </h2>
           <div className="w-20 h-1.5 bg-tech-accent mx-auto rounded-full mb-6 shadow-[0_0_15px_rgba(34,211,238,0.6)]"></div>
