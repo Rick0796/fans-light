@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="description" content="FANS LIGHT 泉州青少年职业技能培训 - 直播运营 | AI应用 | 短视频创作 | 跨境电商" />
     <meta name="keywords" content="泉州培训, 青少年编程, 直播运营, AI培训, 短视频剪辑, 跨境电商" />
+    
+    <!-- WeChat/Social Share Meta Tags -->
+    <meta itemprop="name" content="FANS LIGHT | 泉州青少年职业技能培训" />
+    <meta itemprop="image" content="./wechat-qr.jpg" />
+    <meta name="description" itemprop="description" content="赋能青少年，掌握AI与新媒体核心技能，开启未来职业大门。" />
+
     <title>FANS LIGHT | 泉州青少年职业技能培训</title>
     
-    <!-- Tailwind CSS (Keep CDN for simple dev, but build process will usually bundle CSS) -->
+    <!-- Tailwind CSS (Development Mode) -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- FontAwesome (Replaced with BootCDN for China Speed) -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Google Fonts Mirror (Replaced with fonts.font.im for China Speed) -->
+    <link href="https://fonts.font.im/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     
-    <!-- AOS Animation Library -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS Animation Library (Replaced with BootCDN for China Speed) -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://cdn.bootcdn.net/ajax/libs/aos/2.3.4/aos.js"></script>
 
     <!-- Custom Tailwind Config for Theme Colors -->
     <script>
@@ -67,23 +73,20 @@
         background: #22d3ee;
       }
     </style>
-    <!-- Import map is handled by Vite in production usually, but kept for dev compatibility -->
-  <script type="importmap">
+<script type="importmap">
 {
   "imports": {
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/client": "https://aistudiocdn.com/react-dom@^19.2.0/client",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
-    "react-router-dom": "https://aistudiocdn.com/react-router-dom@6.22.3",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "path": "https://aistudiocdn.com/path@^0.12.7",
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
     "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
-    "vite": "https://aistudiocdn.com/vite@^7.2.4"
+    "path": "https://aistudiocdn.com/path@^0.12.7",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
   <body>
     <div id="root"></div>
