@@ -1,3 +1,4 @@
+
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
@@ -19,7 +20,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          // Removed 'aos' from here because it is loaded via CDN in index.html
+          // Removed 'aos' from here because it is loaded via CDN in index.html to avoid build errors
           vendor: ['react', 'react-dom', 'react-router-dom', 'lucide-react'],
         },
       },
